@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en-NG">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nimbus Nigeria | Product Info, Media & Order Form</title>
+    <meta name="description"
+        content="Explore Nimbus audio in Nigeria: features list, pricing table, product media, and an accessible HTML5 order/enquiry form with built-in validation." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:title" content="Nimbus Nigeria | Product Info & Order" />
+    <meta property="og:locale" content="en_NG" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200&q=80" />
+    <meta name="theme-color" content="#0f172a" />
+</head>
+
+<body>
+    <a href="#main-content">Skip to main content</a>
+
+    <header>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="#overview" aria-current="page">Overview</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#order">Order form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <article>
+            <header>
+                <h1>Nimbus Noise‑Cancelling Headphones — Nigeria Edition</h1>
+                <p>Engineered for Lagos traffic, Abuja focus, and Port Harcourt hustle.</p>
+            </header>
+
+            <section id="overview" aria-labelledby="features-heading">
+                <h2 id="features-heading">Key features for Nigerian users</h2>
+                <ul>
+                    <li>Adaptive ANC to tame bus, keke, and office noise</li>
+                    <li>40‑hour battery for long days and grid outages</li>
+                    <li>USB‑C fast charge — 10 minutes gives 5 hours</li>
+                    <li>Multipoint pairing for work and personal phones</li>
+                    <li>Lightweight build for heat and all‑day comfort</li>
+                </ul>
+
+                <h3>What’s in the box</h3>
+                <ol>
+                    <li>Nimbus headphones (Matte Graphite)</li>
+                    <li>USB‑C charging cable</li>
+                    <li>3.5 mm audio cable</li>
+                    <li>Travel pouch</li>
+                    <li>Quick start guide</li>
+                </ol>
+
+                <h3>Materials and sustainability</h3>
+                <dl>
+                    <dt>Recycled aluminum</dt>
+                    <dd>72% of structural components</dd>
+                    <dt>Plant‑based leather</dt>
+                    <dd>On‑ear cushions and headband</dd>
+                    <dt>Packaging</dt>
+                    <dd>100% plastic‑free, fully recyclable</dd>
+                </dl>
+            </section>
+
+            <section id="media" aria-labelledby="media-heading">
+                <h2 id="media-heading">Product media</h2>
+                <figure>
+                    <img src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=1200&q=80"
+                        alt="Nimbus over‑ear headphones in matte graphite on wooden desk" />
+                    <figcaption>Matte Graphite finish — minimalist and durable.</figcaption>
+                </figure>
+
+                <figure>
+                    <figcaption>Sound demo (Afrobeats sample)</figcaption>
+                    <audio controls aria-label="Afrobeats sound demo">
+                        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg" />
+                        Your browser does not support the audio element.
+                    </audio>
+                </figure>
+
+                <figure>
+                    <video controls width="560"
+                        poster="https://images.unsplash.com/photo-1512314889357-e157c22f938d?w=800&q=60"
+                        aria-label="Nimbus quick overview video">
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                        Your browser does not support HTML5 video.
+                    </video>
+                    <figcaption>Quick overview — comfort and controls.</figcaption>
+                </figure>
+            </section>
+
+            <section id="pricing" aria-labelledby="pricing-heading">
+                <h2 id="pricing-heading">Pricing and availability (NGN)</h2>
+                <p id="naira-note">Prices shown in Nigerian naira (₦), VAT inclusive.</p>
+                <table aria-describedby="naira-note">
+                    <caption>Nimbus models and local warranty</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Model</th>
+                            <th scope="col">Battery</th>
+                            <th scope="col">Warranty</th>
+                            <th scope="col">Price (₦)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Nimbus Core</th>
+                            <td>30 hours</td>
+                            <td>1 year</td>
+                            <td>145,000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nimbus Plus</th>
+                            <td>40 hours</td>
+                            <td>2 years</td>
+                            <td>195,000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Nimbus Studio</th>
+                            <td>45 hours</td>
+                            <td>2 years</td>
+                            <td>245,000</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th scope="row" colspan="3">Free delivery in Lagos</th>
+                            <td>Included</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <section id="order" aria-labelledby="order-heading">
+                <h2 id="order-heading">Order / Enquiry form (Nigeria)</h2>
+                <p id="form-hint">Fields marked with * are required. No JavaScript validation is used — native HTML5
+                    only.</p>
+
+                <form action="/submit" method="post" aria-describedby="form-hint">
+                    <fieldset>
+                        <legend>Contact details</legend>
+                        <p id="name-hint">Use your full name as it appears on delivery ID.</p>
+                        <label for="full-name">Full name *</label>
+                        <input id="full-name" name="fullName" type="text" placeholder="e.g., Adaeze Okafor"
+                            minlength="2" pattern="^[A-Za-z ]{2,}$" title="Letters and spaces only" autocomplete="name"
+                            required aria-describedby="name-hint" />
+
+                        <label for="email">Email *</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email"
+                            required />
+
+                        <label for="phone">Mobile number (NG) *</label>
+                        <input id="phone" name="phone" type="tel" inputmode="tel"
+                            placeholder="+2348163180829 or 08163180829" pattern="^(?:\+234\d{10}|0\d{10})$"
+                            title="Use +234XXXXXXXXXX or 0XXXXXXXXXX (11 digits)" autocomplete="tel" required />
+
+                        <label for="website">Website or portfolio</label>
+                        <input id="website" name="website" type="url" placeholder="https://example.com"
+                            autocomplete="url" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Delivery information</legend>
+                        <label for="address">Street address *</label>
+                        <input id="address" name="address" type="text" placeholder="House 12, Adeola Odeku St"
+                            autocomplete="address-line1" required />
+
+                        <label for="city">City *</label>
+                        <input id="city" name="city" type="text" list="city-options" placeholder="Start typing…"
+                            autocomplete="address-level2" required />
+                        <datalist id="city-options">
+                            <option value="Lagos"></option>
+                            <option value="Abuja"></option>
+                            <option value="Port Harcourt"></option>
+                            <option value="Ibadan"></option>
+                            <option value="Enugu"></option>
+                        </datalist>
+
+                        <label for="state">State *</label>
+                        <select id="state" name="state" autocomplete="address-level1" required>
+                            <option value="">Select state…</option>
+                            <option>Lagos</option>
+                            <option>FCT Abuja</option>
+                            <option>Rivers</option>
+                            <option>Oyo</option>
+                            <option>Enugu</option>
+                        </select>
+
+                        <label for="postal">Postal code *</label>
+                        <input id="postal" name="postal" type="text" inputmode="numeric" placeholder="e.g., 100001"
+                            pattern="^\d{6}$" title="6‑digit Nigerian postal code" autocomplete="postal-code"
+                            required />
+
+                        <label for="country">Country</label>
+                        <input id="country" name="country" type="text" value="Nigeria" readonly />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Order details</legend>
+                        <label for="model">Model *</label>
+                        <select id="model" name="model" required>
+                            <option value="">Choose a model…</option>
+                            <option value="core">Nimbus Core — ₦145,000</option>
+                            <option value="plus">Nimbus Plus — ₦195,000</option>
+                            <option value="studio">Nimbus Studio — ₦245,000</option>
+                        </select>
+
+                        <label for="quantity">Quantity (1–5) *</label>
+                        <input id="quantity" name="quantity" type="number" min="1" max="5" step="1" value="1"
+                            required />
+
+                        <label for="delivery-date">Preferred delivery date</label>
+                        <input id="delivery-date" name="deliveryDate" type="date" min="2025-09-01" />
+
+                        <label for="delivery-time">Preferred delivery time</label>
+                        <input id="delivery-time" name="deliveryTime" type="time" />
+
+                        <p id="order-id-hint">Order ID is generated automatically.</p>
+                        <label for="order-id">Order ID</label>
+                        <input id="order-id" name="orderId" type="text" value="NG-NIM-2025-0001" readonly
+                            aria-describedby="order-id-hint" />
+
+                        <fieldset>
+                            <legend>Payment method *</legend>
+                            <label>
+                                <input type="radio" name="payment" value="transfer" required />
+                                Bank transfer
+                            </label>
+                            <label>
+                                <input type="radio" name="payment" value="card" />
+                                Debit/credit card
+                            </label>
+                            <label>
+                                <input type="radio" name="payment" value="cod" />
+                                Pay on delivery (Lagos only)
+                            </label>
+                        </fieldset>
+
+                        <label for="receipt">Upload receipt (optional)</label>
+                        <input id="receipt" name="receipt" type="file" accept="image/*,application/pdf" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Preferences</legend>
+                        <label for="color">Preferred color</label>
+                        <input id="color" name="color" type="color" value="#0f172a" />
+
+                        <label for="volume">Comfort fit preference</label>
+                        <input id="volume" name="fitPreference" type="range" min="0" max="10" value="5" />
+
+                        <label for="notes">Notes</label>
+                        <textarea id="notes" name="notes" rows="4" maxlength="500"
+                            placeholder="Any delivery instructions or fit preferences?"></textarea>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Security</legend>
+                        <p id="pwd-hint">At least 8 characters, 1 letter and 1 number.</p>
+                        <label for="password">Create account password *</label>
+                        <input id="password" name="password" type="password" minlength="8"
+                            pattern="^(?=.*[A-Za-z])(?=.*\d).{8,}$"
+                            title="Minimum 8 characters, include at least 1 letter and 1 number"
+                            autocomplete="new-password" required aria-describedby="pwd-hint" />
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Agreements</legend>
+                        <label>
+                            <input type="checkbox" name="newsletter" value="yes" />
+                            Send me Nimbus Nigeria deals and product news
+                        </label>
+                        <label>
+                            <input type="checkbox" name="terms" required />
+                            I agree to the terms and privacy policy *
+                        </label>
+                    </fieldset>
+
+                    <p>
+                        <button type="submit">Submit order/enquiry</button>
+                        <button type="reset">Reset form</button>
+                    </p>
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <address>
+            Nimbus Audio Nigeria • 12 Adeola Odeku St, Victoria Island, Lagos 106104 •
+            <a href="tel:+2348163180829">+234 816 318 0829</a>
+        </address>
+        <p><small>&copy; <time datetime="2025">2025</time> Nimbus Audio Nigeria</small></p>
+    </footer>
+</body>
+
+</html>
